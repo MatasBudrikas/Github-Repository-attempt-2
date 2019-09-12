@@ -1,0 +1,42 @@
+.verdanatest {
+    font-family: Verdana;
+    font-size: 0.75em;
+    background-color: darkgray;
+}
+.ingress {
+    font-family: Arial;
+    font-size: 1.2em;
+    background-color: darkgray;
+}
+h1 {
+    text-transform: capitalize
+}
+h2 {
+    text-transform: lowercase;
+}
+h3 {
+    font-style: italic;
+}
+a:visited{
+    -webkit-text-fill-color: purple;
+}
+a:focus{
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    -webkit-text-fill-color: red;
+}
+.italictest{
+    font-style: italic;
+    background-color: rgb(153, 255, 255);
+}
+.blacktea{
+    background-color: rgb(64, 64, 68);
+    -webkit-text-fill-color: lightgray;
+}
+.greentea{
+    background-color: palegreen;
+}

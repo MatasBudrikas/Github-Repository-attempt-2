@@ -1,0 +1,1 @@
+const cars = ["Opel", 1, "Mercedes", 2, "BMW", 3, "Audi", 4, "Mazda"]

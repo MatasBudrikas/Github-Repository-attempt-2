@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+.block {
+    border: 5px navy solid;
+    background-color: paleturquoise;
+    margin: 5px;
+    padding: 3px;
+    width: 300px;
+}
+
+.inline-block {
+    border: 5px green solid;
+    background-color: palegreen;
+    margin: 5px;
+    padding: 3px;
+    width: 300px;
+}
+
+.inline {
+    border: 5px crimson solid;
+    background-color: palevioletred;
+    margin: 5px;
+    padding: 3px;
+    width: 300px;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+    content: '';
+}

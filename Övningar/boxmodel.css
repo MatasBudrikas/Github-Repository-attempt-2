@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+.h1 {
+    text-align: center;
+    font-size: 40px;
+    -webkit-text-fill-color: lightyellow;
+    font-family: sans-serif;
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+    border-top: 3px grey solid;
+    border-bottom: 3px grey solid;
+}
+.content {
+    transform: rotate(0deg) rotateY(180deg);
+    text-align: center;
+    width: 800px;
+    padding: 40px;
+    border: 5px dashed black;
+    margin:40px;
+    background-color:rgb(59, 59, 59);
+    font-family: sans-serif;
+    -webkit-text-fill-color: lightgray;
+
+}
+
+
+.footer {
+    width: 100%;
+    border: 40px;
+    padding: 10px;
+    background-color: palegoldenrod;
+    font-family: Arial;
+}

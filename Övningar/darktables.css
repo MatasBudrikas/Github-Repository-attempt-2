@@ -1,0 +1,59 @@
+.table {
+    outline: black 1px solid;
+    width: 500px;
+    background-color: lightgray;
+    display: table;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    font-weight: bold;
+}
+
+td {
+    font-family: arial;
+}
+
+.thead-dark {
+    background-color: rgb(34, 34, 34);
+    font-family: sans-serif;
+    -webkit-text-fill-color: ivory;
+    font-weight: bold;
+}
+
+.table-hover {
+    margin-bottom: 3px;
+    box-shadow: 2px black;
+}
+
+.table-bordered {
+    border: 2px red solid;
+}
+
+.standard {
+    background-color: lightgrey;
+}
+
+.alternate {
+    background-color: rgb(231, 194, 138)
+}
+
+.active {
+    background-color: ivory;
+}
+
+.inactive {
+    background-color: darkslategray;
+}
+
+.caution {
+    background-color: orange;
+}
+
+.warning {
+    background-color: red;
+}
