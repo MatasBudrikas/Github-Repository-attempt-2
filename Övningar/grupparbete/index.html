@@ -6,23 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Grupparbete för M och S 19-09">
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="javacss.css">
     <title>GP-AB.SEP</title>
 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        #header1 {
+            color: turquoise !important;
+        }
+    </style>
 </head>
 
-<body>
+<body class="default-theme">
     <div class="Eheader">
-        <h1 id="header1">Modifiable Title</h1><button id="titleButton"
-            onclick="setColor('header1', 'darkslateblue')">Title
+        <h1 id="header1">Modifiable Title</h1>
+        <button id="titleButton" onclick="setColor('header1', 'darkslateblue')">Title
             switch</button>
 
-        <script src="javaindex.js">
-        </script>
+        <button onclick="toggleTheme()">Toggle Theme</button>
     </div>
     <div class="Emain">
         <div class="tab">
-            <button class="tabLinks" onclick="openTab(event, 'vadarseo')">Vad är SEO?</button>
+            <button class="tabLinks" id="defaultTab" onclick="openTab(event, 'vadarseo')">Vad är SEO?</button>
             <button class="tabLinks" onclick="openTab(event, 'hur')">Hur fungerar SEO?</button>
             <button class="tabLinks" onclick="openTab(event, 'vadarmeta')">Vad är meta-taggar?</button>
             <button class="tabLinks" onclick="openTab(event, 'extrainfo')">Extra info</button>
@@ -30,7 +34,10 @@
         </div>
         <div id="vadarseo" class="tabContent">
             <h3>Vad är SEO?</h3>
-            <p>SEO, eller Search Engine Optimization, är en funktion i webbläsare och HTML</p>
+            <p>SEO, eller Search Engine Optimization, är en funktion i webbläsare och HTML som fungerar att driva din
+                webbsida högre upp i sökresultaterna. Den består av ett flertal olika taggar och funktioner som är
+                specifikt skapade för att få uppmärksamheten av sökrobotar och AI som söker hela internet för webbsidor.
+            </p>
         </div>
         <div id="hur" class="tabContent">
             <h3>Hur fungerar SEO?</h3>
@@ -46,11 +53,14 @@
             <p>Extra information om personerna som arbetade med denna webbsida.</p>
         </div>
     </div>
-    <script>
-        document.getElementById("vadarseo").click();</script>
     <div class="Efooter">
 
     </div>
+
+    <script src="script.js">
+    </script>
+    <script>
+        document.getElementById("defaultTab").click();</script>
 </body>
 
 </html>
