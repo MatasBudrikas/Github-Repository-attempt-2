@@ -10,15 +10,19 @@
 
 <body>
     <h1 id="text1">Click test</h1>
-    <p id="p1">Paragraph 1</p>
-    <p id="p2">Paragraph 2</p>
-    <p id="p3">Paragraph 3</p>
-    <p id="p4">Paragraph 4</p>
+    <button onclick="setColor('p1', 'orange')">Button 1</button>
+    <p id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis quidem id excepturi saepe ducimus
+        dignissimos dolorem libero obcaecati consequuntur officiis? Culpa nam aperiam inventore voluptatem! Voluptate
+        molestias placeat excepturi tempora.</p>
+    <button id="p2" onclick="setColor('button2', 'palegreen')">Paragraph 2</button>
+    <button id="p3" onclick="setColor('button3', 'paleturqouise')">Paragraph 3</button>
+    <button id="p4" onclick="setColor('button4', 'palevioletred')">Paragraph 4</button>
     <div id="password-box">
-        <div id="passwordtext">Type your password here: <input type="password" value="" </div> <div id="password-area">
-
-        </div>
+        <div id="passwordtext">Type your password here: <input type="password" value="" id="PSWTXT"></div>
+        <div id="clicker"><input type="checkbox" onclick="togglePassword()">Show password</div>
     </div>
+    <p onmouseover="this.style.color='green'">Hell.</p>
+    <script src="clickthis.js"></script>
 </body>
 
 </html>
