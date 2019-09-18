@@ -7,9 +7,10 @@ body {
     'header'
     'main'
     'footer';
-    grid-template-rows: 30px, auto, 30px;
-    min-height: 100px;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
     font-family: sans-serif;
+    min-height: 100vh;
 }
 
 .default-theme #header1 {
@@ -35,12 +36,10 @@ body {
     border: 3px darkslategrey solid;
     width: fit-content;
     margin: auto;
-    margin-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 3px;
     padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 .tabLinks {
@@ -122,6 +121,8 @@ body {
         '.      main    .'
         'footer footer  footer';
       grid-template-columns: auto 550px auto;
+      grid-template-rows: 125px auto 50px;
+
     }
   }
 

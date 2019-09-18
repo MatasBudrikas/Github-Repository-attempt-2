@@ -45,9 +45,13 @@ function openTab(evt, tabName) {
         tabLinks[i].className = tabLinks[i].className.replace(" active", "");
     }
 
-    document.getElementById(tabName).style.display = "block"; {
-        evt.currentTarget.className += " active";
-    }
+    const activeTab = document.getElementById(tabName);
+    activeTab.style.display = "block";
+    evt.currentTarget.className += " active";
+
+    // document.getElementById(tabName).style.display = "block"; {
+    //     evt.currentTarget.className += " active";
+    // }
 }
 
 let currentTheme = "default";
