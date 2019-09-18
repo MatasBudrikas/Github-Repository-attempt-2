@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +11,15 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <style>
         #header1 {
-            color: turquoise !important;
+            color: turquoise;
         }
     </style>
 </head>
 
 <body class="default-theme">
     <div class="Eheader">
-        <h1 id="header1">Modifiable Title</h1>
-        <button id="titleButton" onclick="setColor('header1', 'darkslateblue')">Title
+        <h1 id="header1">Search Engine Optimization</h1>
+        <button id="titleButton" onclick="setColor('header1', 'color')">Title
             switch</button>
 
         <button onclick="toggleTheme()">Toggle Theme</button>
@@ -38,19 +38,82 @@
                 webbsida högre upp i sökresultaterna. Den består av ett flertal olika taggar och funktioner som är
                 specifikt skapade för att få uppmärksamheten av sökrobotar och AI som söker hela internet för webbsidor.
             </p>
+            <p>
+                SEO är grundligt enkel att förstå, men det finns mycket mer att veta om SEO än bara grundnivån. De
+                viktigaste taggarna kommer att få din webbsida att hamna på sökresultaterna, men den kommer sitta långt
+                under andra större och mer tydliga webbsidor. Ju mer precis och tydlid man gör sin sida till
+                sökrobotarna genom olika specifika taggar, ju högre upp i sökresultaterna kommer din webbsida hamna.
+            </p>
         </div>
         <div id="hur" class="tabContent">
             <h3>Hur fungerar SEO?</h3>
             <p>SEO fungerar främst genom ett flertal olika processer från sökmotorer och en egenskap i webbsidans HTML.
+                De två viktigaste komponenterna av sökmotorsoptimisering är <code>meta</code>-taggar och crawlers, som
+                också ibland kallad spiderbots eller helt enkelt spiders. I en enkel förklaring, dessa crawlers helt
+                enkelt söker hela internet till roterna för webbsidor och slänger in dem i sökresultaterna av sökmotorer
+                som t.ex Google eller DuckDuckGo.
             </p>
+            <h3>Hur fungerar själva söket?</h3>
+            <p>
+                Hela processen av ett sök kan delas upp i tre delar: <div class="boldtext">Crawl, Index och Rank.</div>
+                <p>Alla tre delar kommer att förklaras nedan.</p>
+                <p><b>Crawling</b> är processen där sökmotorsrobotar/crawlers/spindlar söker genom varje bit av info på
+                    hela
+                    internet för att
+                    uppdatera existerande webbsidor och indexera nya webbsidor.</p>
+                <p><b>Indexing</b> är processen som sker när en spindel hittar en ny webbsida och registrerar den till
+                    arkiven av en sökmotor som t.ex Google, vilket lägger upp sidan på sökresultaterna. </p>
+                <p><b>Ranking</b> är den sista processen som sker inom en sökmotor. I denna process så tas ett flertal
+                    faktorer in på "relevansen" av webbsidan. Dessa faktorer är främst <code>meta</code>-taggar och hur
+                    kort
+                    webbsidans adress/länk är, desto kortare, desto bättre. Ju mer "relevant" webbsidan är till
+                    sökmotorns
+                    möjliga inputs som skulle dra upp webbsidan, ju högre upp i resultaterna kommer webbsidan hamna. Det
+                    bästa resultat man kan få av en sökmotor är att få din webbsida att vara det första resultatet på
+                    ett
+                    sök.</p>
+
         </div>
         <div id="vadarmeta" class="tabContent">
             <h3>Var är meta-taggar?</h3>
-            <p>Meta-taggar är viktiga element inom HTML-koden som plockas upp av webbläsare.</p>
+            <p>Meta-taggar är viktiga element inom HTML-koden som plockas upp av webbläsare. De är speciella taggar
+                som
+                alltid hamnar inom <code>head</code>-taggen och fungerar för att först och främst upptäckas av
+                "cralwers", eller sökmotorsrobotar som ständigt söker hela internet för webbsidor.
+
+                De mest grundliga och vanliga <code>meta</code>-taggarna inom HTML är som följer:
+                <ul>
+                    <li>
+                        <div class="HPlist">VIKTIG </div> <code>title</code>
+                    </li>
+                    <li>
+                        <div class="HPlist">VIKTIG </div> <code>meta name="description" content=""</code>
+                    </li>
+                    <li>
+                        <div class="HPlist">VIKTIG </div> <code>meta charset</code>
+                    </li>
+                    <li><code>meta name="author" content=""</code></li>
+                    <li><code>meta http-equiv="robots" content=""</code></li>
+                    <li><code>meta property=""</code></li>
+                    <li><code>img src="" <b>alt=""</b></code></li>
+                </ul>
+                <p>Det finns många mer meta-taggar som är aktiva och påverkar din SEO-rank, och det finns vissa taggar
+                    som har ingen påverkan på din SEO-rank alls. En fullständigt lista av alla meta-taggar, hur de
+                    fungerar
+                    och
+                    hur värdefulla de är kan hittas <a href="https://www.metatags.org/all-meta-tags-overview/">här.</a>
+
+
         </div>
         <div id="extrainfo" class="tabContent">
             <h3>Extra information</h3>
-            <p>Extra information om personerna som arbetade med denna webbsida.</p>
+            <p>Extra information om denna webbsida.
+                <p> Majoriteten av koden (HTML, CSS, JS)
+                    skrevs av Matas Budrikas<i> (student)</i>, och vissa delar hjälptes till av Fredrik Gullberg <i>
+                        (Lärare)</i>. Programmet som användes
+                    för att skriva webbsidan är Visual Studio Code. Webbsidan är ett projekt för Nackademin, och den är
+                    verifierad av W3C Validator.
+                    <p><i>Uppladdningsdatum: 2019-09-18</i></p>
         </div>
     </div>
     <div class="Efooter">

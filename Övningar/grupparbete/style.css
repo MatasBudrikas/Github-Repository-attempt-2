@@ -9,6 +9,7 @@ body {
     'footer';
     grid-template-rows: 30px, auto, 30px;
     min-height: 100px;
+    font-family: sans-serif;
 }
 
 .default-theme #header1 {
@@ -17,6 +18,15 @@ body {
 
 .alt-theme #header1 {
     background-color: rgb(68, 61, 47);
+}
+.boldtext {
+    font-weight: bold;
+}
+.HPlist {
+    font-weight: bold;
+    display: inline-flex;
+    font-family: sans-serif;
+    font-size: 75%;
 }
 
 #header1 {
@@ -28,7 +38,8 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 3px;
-    color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .tabLinks {
@@ -89,10 +100,11 @@ body {
 #titlebutton {
     margin: auto;
     align-items: center;
+    display: inline-flex;
 }
 
 .tabContent {
-
+    color: rgb(13, 11, 36);
     display: none;
     padding: 6px 12px;
     border: 1px solid darkslategray;

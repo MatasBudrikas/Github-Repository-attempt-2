@@ -1,26 +1,30 @@
+let headerEl = document.getElementById("header1");
+headerEl.style.color = "turquoise";
+headerEl.style.genericFamily = "sans-serif";
+headerEl.style.fontSize = "50px";
+
 let count = 1;
 function setColor(id, color) {
     const titleEl = document.getElementById(id);
     titleEl.style.color = color;
     if (count == 0) {
-        titleEL.style.color = "#FFFFFF";
+        titleEl.style.color = "#FFFFFF";
         count = 1;
     }
     else if (count == 1) {
         titleEl.style.color = "#FF0000";
         count = 2;
     }
-    else {
+    else if (count == 2) {
         titleEl.style.color = "#7FFF00";
+        count = 3;
+    }
+    else {
+        titleEl.style.color = "#40e0d0";
         count = 0;
     }
 
 }
-
-let headerEl = document.getElementById("header1");
-headerEl.style.color = "turquoise";
-headerEl.style.genericFamily = "sans-serif";
-headerEl.style.fontSize = "50px";
 
 let bodyEls = document.getElementsByTagName("body");
 for (const el of bodyEls) {
