@@ -35,6 +35,7 @@ body {
     border: 3px darkslategrey solid;
     width: fit-content;
     margin: auto;
+    margin-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 3px;
